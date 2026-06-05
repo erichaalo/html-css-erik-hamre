@@ -259,6 +259,41 @@ a {
     width: auto;
 }
 
+/* About Us */
+
+.about-section {
+    padding: 60px 80px;
+}
+
+.about-content {
+    display: flex;
+    gap: 40px;
+    align-items: top;
+}
+
+.about-content img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: var(--radius-medium);
+}
+
+.about-text {
+    width: 500px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.about-text p {
+    margin: 0;
+    font-size: var(--font-body);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.6;
+}
+
 /* Footer */
 
 .site-footer {
