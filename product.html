@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rainy Days outdoor rain jackets">
+    <title>Rainy Days | Home</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="site-header">
+
+    <div class="container header-content">
+
+        <a href="index.html" class="logo">
+            <img src="images/RainyDays_Logo.png" alt="Company Name">
+        </a>
+
+        <nav aria-label="Main navigation">
+
+            <ul class="nav-list main-nav">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="jackets.html">Jackets</a></li>
+                <li><a href="cart.html">Cart</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <section class="product-detail">
+
+        <div class="container product-detail-content">
+
+            <div class="product-image">
+                <img src="images/productimage.jpg"
+                     alt="Fleece Overshirt">
+            </div>
+
+            <div class="product-info">
+
+                <h1>Fleece Overshirt</h1>
+
+                <p class="product-price">
+                    1200 NOK
+                </p>
+
+                <p class="product-description">
+                    This fleece overshirt is made to keep you warm in whatever conditions you find yourself in. Use it under one of our raincoats or as the outer shell on a sunny spring day. Perfect for hiking, camping or a quick trip to Narvesen. 
+                </p>
+
+                <div class="size-selector">
+
+                    <label>Size</label>
+
+                    <div class="size-options">
+                        <input type="radio" name="size" id="size-s" class="size-input">
+                        <label for="size-s" class="size-button">S</label>
+
+                        <input type="radio" name="size" id="size-m" class="size-input" checked>
+                        <label for="size-m" class="size-button">M</label>
+
+                        <input type="radio" name="size" id="size-l" class="size-input">
+                        <label for="size-l" class="size-button">L</label>
+
+                        <input type="radio" name="size" id="size-xl" class="size-input">
+                        <label for="size-xl" class="size-button">XL</label>
+                    </div>
+
+                </div>
+
+                <div class="quantity-selector">
+
+                    <label for="quantity">
+                        Quantity
+                    </label>
+
+                    <input
+                        type="number"
+                        id="quantity"
+                        name="quantity"
+                        min="1"
+                        max="99"
+                        value="1">
+
+                </div>
+
+                <a href="cart.html" class="btn btn-primary">
+                    Add to Cart
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="site-footer">
+
+    <div class="container">
+
+        <nav aria-label="Footer navigation">
+
+            <ul class="footer-nav">
+
+                <li><a href="index.html">Home</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="jackets.html">Jackets</a></li>
+
+            </ul>
+
+        </nav>
+
+    </div>
+
+</footer>
+</body>
+</html>
