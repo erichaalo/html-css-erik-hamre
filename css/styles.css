@@ -300,6 +300,18 @@ a {
     font-weight: var(--font-weight-medium);
 }
 
+@media (max-width: 768px) {
+
+    .hero-content {
+        margin-top: 180px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+}
+
 /* Section title */
 
 .section-title {
