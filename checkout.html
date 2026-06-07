@@ -9,33 +9,41 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 <header class="site-header">
+    <div class="container">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-    <div class="container header-content">
+        <div class="header-content">
+            <label for="menu-toggle" class="hamburger">
 
-        <a href="index.html" class="logo">
-            <img src="images/RainyDays_Logo.png" alt="Company Name">
-        </a>
+                <i class="fa-solid fa-bars hamburger-open"></i>
 
-        <nav aria-label="Main navigation">
+                <i class="fa-solid fa-xmark hamburger-close"></i>
 
-            <ul class="nav-list main-nav">
+            </label>
 
-                <li><a href="index.html">Home</a></li>
-                <li><a href="men.html">Men</a></li>
-                <li><a href="women.html">Women</a></li>
-                <li><a href="jackets.html">Jackets</a></li>
-                <li><a href="cart.html">Cart</a></li>
+            <a href="index.html" class="logo">
+                <img src="images/RainyDays_Logo.png" alt="Rainy Days">
+            </a>
 
-            </ul>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="jackets.html">Jackets</a></li>
+                </ul>
+            </nav>
 
-        </nav>
-
+            <a href="cart.html" class="cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
     </div>
-
 </header>
 <main>
     <section class="checkout-page">
@@ -46,7 +54,7 @@
                 <form class="checkout-form" action="success.html">
 
                     <section class="form-section">
-                        <h2 class="subsection-title">Delivery Details</h1>
+                        <h1 class="subsection-title">Delivery Details</h1>
 
                         <div class="form-group">
                             <label for="full-name">Full Name</label>
